@@ -82,20 +82,23 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+/*モバイル用ハンバーガーアイコン*/
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  
+ /* PC用はdisplayをnoneに指定してください */
+  display: none;
+}
 
 /*---------------------------------
 
   0.ヘッダー end
 
 ---------------------------------*/
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* displayをnoneに指定してください */
-  display: none;
-}
+
 /*---------------------------------
 
   1.メインコンテンツ
